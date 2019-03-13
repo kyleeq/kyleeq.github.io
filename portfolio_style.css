@@ -1,0 +1,149 @@
+/*top navigation bar and banner*/
+.topnav{
+	background-color: #80c3ff;
+	font-family: Georgia;
+	height: 75px;
+	margin: 0px;}
+
+.topnav a{
+	float: left;
+	font-size: 24px;
+	padding: 20px 25px;
+	text-align: center;
+	color: #0088ff;}
+
+.topnav a:hover{
+	background-color: #0088ff;
+	color: #003666;
+	height: 75px;}
+
+.active{
+	background-color: #003666;
+	color: #80c3ff;
+	height: 75px;}
+
+.bruce-banner{
+	width: 100%;
+	border: 25px;
+	background-color: #0088ff;
+	font-family: Georgia;
+	font-size: 50px;
+	margin: 0px;
+	padding: 30px;
+	text-align: center;
+	color: #003666;}
+
+/*body*/
+.body{
+	font-family: Georgia;
+}
+/*home*/
+.images-home{
+	width: 150px;
+	background-color: #0088ff;
+	padding: 15px;
+	margin: 15px;}
+
+.font-home{
+	font-family: Georgia;
+	color: #003666;
+	text-align: center;}
+
+.empty1{
+	height: 100px;
+	background-color: white;}
+
+.home-banner{
+	background-color: #b3dbff;
+	width: 100%;
+	text-align: center;}
+
+/*projects*/
+#body-projects{
+	background-color: #f0f8ff;
+	font-family: Georgia;}
+
+.images-projects{
+	width: 350px;
+	padding: 10px;}
+
+.images-top-projects{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;}
+
+.images-bottom-projects{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;}
+
+/*about me*/
+#empty3{
+	height: 100px;
+	background-color: white;}
+
+.col-left{
+	top-padding
+	width: 50%;
+	float: left;
+	text-align: center;}
+
+.col-right{
+	width: 50%;
+	float: right;
+	text-align: center;
+	background-color: #b3dbff;
+	padding-top:20%;}
+
+#image-me{
+	width: 500px;
+	border-radius: 15%;}
+
+#font-about-me{
+	text-align: center;
+	padding-top: 10%;}
+
+/*contact*/
+#body-contact{
+	background-color: #f0f8ff;
+	font-family: Garamond;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;}
+
+.contact-icons{
+	color: #003666;
+	z-index: 1;
+	text-align: center;
+	width:24.5%;
+	font-size: 80px;}
+
+.contact-icons:hover{
+	color: #33a0ff;}
+
+#icon-container{
+	margin-top:10%;
+	position: relative;}
+
+/*unimplemented extra styles*/
+.container:hover .image{
+	opacity: 1;}
+
+.images-left{
+	width: 300px;
+	padding-right: 50px;
+	margin-right: 20px;}
+
+.images-right{
+	width: 300px;
+	padding-left: 50px;
+	margin-left: 20px;}
+
+.images-middle-projects{
+	width: 400px;
+	float: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;}
